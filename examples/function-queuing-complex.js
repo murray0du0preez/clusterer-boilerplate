@@ -1,4 +1,4 @@
-const { Cluster } = require('../dist');
+const { Cluster } = require('puppeteer-clusterer');
 
 (async () => {
     const cluster = await Cluster.launch({

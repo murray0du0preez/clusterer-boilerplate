@@ -1,0 +1,24 @@
+{
+  "name": "clusterer-boilerplate",
+  "version": "0.1.0",
+  "description": "A collection of examples, templates and boilerplate for puppeteer-clusterer",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Murray Du Preez",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/murray0du0preez/clusterer-boilerplate.git"
+  },
+  "homepage": "https://github.com/murray0du0preez/clusterer-boilerplate#readme",
+  "keywords": [
+    "puppeteer",
+    "cluster",
+    "boilerplate"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer-clusterer": "^0.1.1"
+  }
+}

@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const { Cluster } = require('../dist');
+const { Cluster } = require('puppeteer-clusterer');
 
 (async () => {
     const cluster = await Cluster.launch({

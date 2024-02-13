@@ -3,7 +3,7 @@
 // > Error crawling https://www.wikipedia.org/: Fake error
 // > Error crawling https://domain.invalid/: net::ERR_NAME_NOT_RESOLVED at https://domain.invalid/
 
-const { Cluster } = require('../dist');
+const { Cluster } = require('puppeteer-clusterer');
 
 (async () => {
     // Create a cluster with 2 workers

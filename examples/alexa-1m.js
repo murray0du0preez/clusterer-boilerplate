@@ -1,7 +1,7 @@
 // You need to download the Alexa 1M from http://s3.amazonaws.com/alexa-static/top-1m.csv.zip
 // and unzip it into this directory
 
-const { Cluster } = require('../dist');
+const { Cluster } = require('puppeteer-clusterer');
 
 const fs = require('fs').promises;
 
